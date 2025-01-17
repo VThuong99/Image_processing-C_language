@@ -15,6 +15,4 @@ The JPEG compression standard:
 ### 5. Simple tracking
 The `Simple tracking` using 3 image: bg (background), fig1 and fig2 is 2 image that show the object before and after moving.  
 First, I will detect the object by compare it with the background. Then, the direction of the object will be calculated by the dx and dy value, that get by calculate the `L2 distance` of 2 object after and before.
-## Requirements
-- C compiler.
-- Makefile.
+
